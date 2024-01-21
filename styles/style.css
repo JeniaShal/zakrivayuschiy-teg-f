@@ -28,7 +28,6 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-
 }
 
 .header {
@@ -337,7 +336,6 @@
   animation-delay: 0.3s;
   animation-direction: alternate;
 }
-
 
 @keyframes sparks {
   0% {
