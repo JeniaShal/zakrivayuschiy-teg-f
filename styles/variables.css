@@ -10,5 +10,6 @@
   --bg-image-bottom-to-top: linear-gradient(180deg, #e7e7e7, #1a1a1a);
   --elements-accent-color: rgb(0 0 0 / 0.6);
   --stroke-color: rgb(255 255 255 / 0.6);
+  --fill-color: #ff0000;
 }
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
