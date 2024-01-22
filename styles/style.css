@@ -192,12 +192,14 @@
 .card__picture {
   position: relative;
   outline: 2px solid var(--accent-color);
+  isolation: isolate;
 }
 
 .card__image {
   display: block;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 
 .watermark {
@@ -437,53 +439,54 @@
 
 .button__text {
   font-family: var(--font-family-accent);
-  background-color: var(--accent-color);
+  background-color: var(--button__text-bg-color);
   font-size: 14px;
   position: relative;
   z-index: 2;
-  color: var(--bg-color);
+  color: var(--button__text-color);
   mix-blend-mode: difference;
   transition: color 0.3s;
+  mix-blend-mode: difference;
 }
 
 .zero-sprint {
   mix-blend-mode: hard-light;
-  filter: brightness(100%);
+  filter: brightness(120%);
 }
 
 .first-sprint-start {
   mix-blend-mode: hard-light;
-  filter: grayscale(0.8) contrast(80%) brightness(60%);
+  filter: sepia(80%) brightness(60%);
 }
 
 .first-sprint-end {
   mix-blend-mode: hard-light;
-  filter: saturate(300%) brightness(60%);
+  filter: saturate(200%) brightness(60%);
 }
 
 .second-sprint-start {
   mix-blend-mode: hard-light;
-  filter: hue-rotate(30deg) brightness(50%);
+  filter: hue-rotate(45deg);
 }
 
 .second-sprint-end  {
   mix-blend-mode: hard-light;
-  filter: invert(1) contrast(0.7) brightness(80%);
+  filter: saturate(150%) contrast(1.1) brightness(120%);
 }
 
 .third-sprint-start{
   mix-blend-mode: hard-light;
-  filter: sepia(80%) brightness(50%);
+  filter: brightness(120%) saturate(120%);
 }
 
 .third-sprint-end {
   mix-blend-mode: hard-light;
-  filter: blur(10px);
+  filter: grayscale(1) contrast(65%) brightness(65%);
 }
 
 .now-and-here {
   mix-blend-mode: hard-light;
-  filter: hue-rotate(72deg) saturate(250%) blur(1px) opacity(0.7) brightness(30%);
+  filter: saturate(150%) opacity(0.9) blur(1px);
 }
 
 .footer {
@@ -514,6 +517,7 @@
   position: relative;
   overflow: hidden;
 }
+
 
 @media(width > 500px) and (orientation: landscape) {
   .footer {
@@ -586,14 +590,6 @@
   gap: 30px;
 } 
 
-/* @media(width > 500px) and (orientation: landscape) {
-  .save__container {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-} */
-
 .save__title-container {
   width: 100%;
   display: flex;
@@ -609,6 +605,11 @@
 
 .save-title-wording-container {
   width:198px;
+}
+
+.dialog__icon {
+  stroke: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .dialog__button {

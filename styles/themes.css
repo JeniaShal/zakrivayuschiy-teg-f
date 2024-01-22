@@ -19,6 +19,8 @@
   --heart-color: #FFF;
   --fill-color: #ff0000;
   --dialog-open-color: rgb(0 0 0 / 0.3);
+  --button__text-bg-color: #000;
+  --button__text-color: #FFF;
 }
 
 @media (prefers-color-scheme: light) {
@@ -37,6 +39,8 @@
   --heart-color: #FFF;
   --fill-color: #ff0000;
   --dialog-open-color: rgb(0 0 0 / 0.3);
+  --button__text-bg-color: #000;
+  --button__text-color: #FFF;
   }
 }
 
@@ -55,6 +59,8 @@
   --heart-color: #000;
   --fill-color: #ff0000;
   --dialog-open-color: rgb(0 0 0 / 0.3);
+  --button__text-bg-color: #000;
+  --button__text-color: #00CC14;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -73,5 +79,7 @@
     --heart-color: #000;
     --fill-color: #ff0000;
     --dialog-open-color: rgb(0 0 0 / 0.3);
+    --button__text-bg-color: #000;
+    --button__text-color: #00CC14;
   }
 }
