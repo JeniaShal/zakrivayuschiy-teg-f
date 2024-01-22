@@ -5,11 +5,12 @@
   --font-family-accent: 'PressStart2P', serif;
   --bg-color: #FFF;
   --accent-color: #000;
-  --bg-image-left-to-right: repeating-linear-gradient(90deg, #d3d3d3, rgb(211, 211, 211/0) 2px);
-  --bg-image-top-to-bottom: repeating-linear-gradient(#d3d3d3, rgb(211, 211, 211/0) 2px);
+  --bg-image-left-to-right: repeating-linear-gradient(90deg, #d3d3d3, rgb(211 211 211 / 0) 2px);
+  --bg-image-top-to-bottom: repeating-linear-gradient(#d3d3d3, rgb(211 211 211 / 0) 2px);
   --bg-image-bottom-to-top: linear-gradient(180deg, #e7e7e7, #1a1a1a);
   --elements-accent-color: rgb(0 0 0 / 0.6);
   --stroke-color: rgb(255 255 255 / 0.6);
+  --heart-color: #FFF;
   --fill-color: #ff0000;
   --dialog-open-color: rgb(0 0 0 / 0.3);
 }
