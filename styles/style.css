@@ -81,7 +81,7 @@
   gap: 7px;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .theme-menu__button {
@@ -177,10 +177,6 @@
   width: 100%;
 }
 
-/* .card__upper-part {
-  border: 2px solid var(--accent-color);
-} */
-
 .card__title {
   padding: 5px 10px;
   font-family: var(--font-family-text);
@@ -222,12 +218,12 @@
     -webkit-text-stroke: 1px var(--stroke-color);
     text-stroke: 1px var(--stroke-color);
     text-shadow: none;
-}
+  }
 }
 
 .card__lower-part {
   border: 2px solid var(--accent-color);
-  padding-block-end: 25px; 
+  padding-block-end: 25px;
 }
 
 .card__text {
@@ -469,12 +465,12 @@
   filter: hue-rotate(45deg);
 }
 
-.second-sprint-end  {
+.second-sprint-end {
   mix-blend-mode: hard-light;
   filter: saturate(150%) contrast(1.1) brightness(120%);
 }
 
-.third-sprint-start{
+.third-sprint-start {
   mix-blend-mode: hard-light;
   filter: brightness(120%) saturate(120%);
 }
@@ -629,5 +625,5 @@
 }
 
 dialog::backdrop {
-  background-color: rgb(0 0 0 / 0.75); 
+  background-color: rgb(0 0 0 / 0.75);
 }
