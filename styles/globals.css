@@ -51,3 +51,8 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+.button:hover, 
+.button_menu:hover {
+  cursor: pointer;
+}
