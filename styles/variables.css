@@ -2,7 +2,7 @@
   --font-weight-normal: 400;
   --font-weight-header: 700;
   --font-family-text: 'Inter-Variable', sans-serif;
-  --font-family-accent: 'PressStart2P', monospace;
+  --font-family-accent: 'PressStart2P', fantasy;
   --bg-color: #FFF;
   --accent-color: #000;
   --bg-image-gradient: repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, rgb(211 211 211 / 0) 2px, rgb(211 211 211 / 0) 4px),
