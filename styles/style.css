@@ -32,10 +32,9 @@
   block-size: clamp(20.1875rem, 14.3541rem + 13.9932vw, 22.75rem);
   inline-size: 100%;
   max-inline-size: 699px;
-  margin: 100px auto 102px;
+  margin: 102px auto 102px;
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
-  box-sizing: content-box;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
 }
@@ -294,6 +293,7 @@
   border: 2px solid var(--accent-color);
   overflow: hidden;
   position:relative;
+  transition: box-shadow 0.3s ease;
 }
 
 .button::before {
@@ -325,7 +325,6 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   box-shadow: 2px 2px var(--accent-color);
-  transition: box-shadow 0.3s ease;
 } 
 
 .card__like-button {
